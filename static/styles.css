@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: #e3dfd6;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 20px;
+    
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #858cac;
+}
+
+td {
+    background-color: #cfd1daff;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #858cac;
+}
